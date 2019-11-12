@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimHandlingApp", "ClaimHandlingApp.csproj", "{457949AD-1FDC-42F9-9462-BEB17C54F9DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimHandlingApp.Test", "..\ClaimHandlingApp.UnitTest\ClaimHandlingApp.Test.csproj", "{B5798680-67B8-4DD6-98C8-D33317EE806D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457949AD-1FDC-42F9-9462-BEB17C54F9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457949AD-1FDC-42F9-9462-BEB17C54F9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457949AD-1FDC-42F9-9462-BEB17C54F9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457949AD-1FDC-42F9-9462-BEB17C54F9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5798680-67B8-4DD6-98C8-D33317EE806D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5798680-67B8-4DD6-98C8-D33317EE806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5798680-67B8-4DD6-98C8-D33317EE806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5798680-67B8-4DD6-98C8-D33317EE806D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A406465-C55B-43D5-8D6C-6DA800715107}
+	EndGlobalSection
+EndGlobal
