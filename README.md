@@ -27,3 +27,7 @@ The storage medium for a Claim entity is Cosmos.
 Audit
 
 Every change to the list of Claims are audited.ClaimAudit table is created for this purpose. A message is create with the claim id, timestamp and operation/http request method type information and pushed to the Azure Servis Bus by subscribing to the topic.
+
+Unit Testing
+
+For testing purposes, xUnit testing framework is used.
